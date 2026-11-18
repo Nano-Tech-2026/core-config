@@ -5,8 +5,6 @@ importers:
 
   .:
     configDependencies: {}
-    onlyBuiltDependencies:
-      - esbuild
     packageManagerDependencies:
       pnpm:
         specifier: 12.15.0
