@@ -24,9 +24,6 @@
     "test": "vitest run --coverage",
     "build": "tsup"
   },
-  "onlyBuiltDependencies": [
-    "esbuild"
-  ],
   "dependencies": {
     "dotenv": "^17.2.0",
     "zod": "^4.0.0"
