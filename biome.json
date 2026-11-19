@@ -18,7 +18,7 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
+      "presetRecommended": true,
       "style": {
         "noNonNullAssertion": "error",
         "useNodejsImportProtocol": "error"
