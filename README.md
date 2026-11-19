@@ -65,20 +65,20 @@ original.
 
 ## Configuration
 
-| Variable             | Required   | Default    | Description                               |
-| -------------------- | ---------- | ---------- | ----------------------------------------- |
-| Any env var in schema| see schema | see schema | Defined per service via `buildSchema`     |
+| Variable               | Required   | Default    | Description                            |
+| ---------------------- | ---------- | ---------- | -------------------------------------- |
+| Any env var in schema  | see schema | see schema | Defined per service via `buildSchema`  |
 
 See `.env.example` for a reference file.
 
 ## Development
 
-| Script           | Description              |
-| ---------------- | ------------------------ |
-| `pnpm lint`      | Biome lint + format check|
-| `pnpm typecheck` | `tsc --noEmit`           |
-| `pnpm test`      | Vitest with coverage     |
-| `pnpm build`     | tsup ESM + declarations  |
+| Script           | Description                        |
+| ---------------- | ---------------------------------- |
+| `pnpm lint`      | Biome lint + format check          |
+| `pnpm typecheck` | `tsc --noEmit`                     |
+| `pnpm test`      | Vitest with coverage               |
+| `pnpm build`     | tsup ESM + declarations            |
 
 ## License
 
